@@ -1,9 +1,3 @@
-(6,6)Li2, a-state, V(r=infinity) is -14903.2967364d0 cm-1
-FROM: Mariusz Semzcuk, Xuan Li, Will Gunton, Magnus Haw, Nike S. Dattani, Julien Witz, Arthur K. Mills, David J. Jones, Kirk W. Madison (2013) PRA
-
-Column 1: r (internuclear distance) in Angstroms
-Column 2: V(r) in cm-1
-
     2.200000   -8.2884521852451D+03  
     2.225000   -8.6555025760860D+03  
     2.250000   -9.0049711467627D+03  
