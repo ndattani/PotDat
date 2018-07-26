@@ -1,0 +1,70 @@
+ 3 3  0  2  3                     % AN1 AN2 CHARGE NISTP NSTATES
+ '../DATA_c-a14-12-10.4'          % DATAFILE
+ '77N9p6q3Rf3_6R'                 % WRITFILE
+  1.d0  1 -1  0  5  0             % UCUTOFF NOWIDTHS IROUND ROBUST prNLL prINP
+  7  7                            % MN1(1) MN2(1)
+  6  6
+
+ 'a3' 0  0 10  99  0              %(1) SLABL IOMEG VMIN VMAX JTRUNC EFSEL
+ 2 -14903.648130d0  0  5          % PSEL VLIM BOBCN OSEL
+ 2.20d0 50.0d0    0.005d0         % RMIN RMAX RH
+
+ 3   0.540d0  -2  1               % NCMM rhoAB IDF IDSTT
+ 6  6.718500000d+06       1           % MMLR CmVAL IFXCm
+ 8  1.126290000d+08       1           %  1  2.78600000D+09
+10  2.786830000d+09       1           %  Tang (2009)
+
+  3.337580000000D+02  1         % De IFXDe
+  4.170050000000D+00  1         % Re IFXRe
+
+  3  3    5  3   8.00D+00       % NSpow NLpow nPB nQB RREF
+ -5.160881020794D-01  0         %
+ -9.785171130762D-02  0         %
+  1.135668382126D-01  0         %
+ -2.494784577556D-02  0         %
+
+  0 -6    6  6  -1.000D+00  -1.000D+00       % nuA nuB pAD qAD RREFadA RREFadB
+  5.814660841825D-02  0         %
+  0.000000000000D+00  1           % uAinf
+
+  -1 -1    3  3       0           % nTA nTB pNA qNA
+
+ '13'  -2  0 -1   99 00            %(2) SLABL IOMEG VMIN VMAX JTRUNC EFSEL
+       90 84
+ 2  0.d0    0  50     0           % PSEL VLIM BOBCN OSEL
+ 1.40  199.  0.002    0           % RMIN, RMAX, RH
+
+ 6  -1.d0  -2 1                   % NCMM rhoAB IDF IDSTT
+ 3 3.575570000000D+05 1
+-1 0.335338d+00       1
+ 6  1.000540d+07      1
+ 6  0.0d0             1
+ 8  3.699530d+08      1
+ 8  0.0d0             1
+
+  7.093440000000D+03  1         % De IFXDe
+  3.065140000000D+00  1         % Re IFXRe
+
+  9  9    6  3   3.60D+00       % NSpow NLpow nPB nQB RREF
+ -1.637391795276D+00  0         %
+  2.919844310440D-01  0         %
+ -5.555300667076D-01  0         %
+ -2.797187587326D-01  0         %
+ -1.596421691571D+00  0         %
+ -6.690184519512D-01  0         %
+ -1.248988825619D+00  0         %
+ -1.318773808167D+00  0         %
+  5.200500479512D-01  0         %
+  2.633282131957D+00  0         %
+
+  3 -7    3  3  -1.000D+00  -1.000D+00       % nuA nuB pAD qAD RREFadA RREFadB
+  1.366834674401D+00  0         %
+  2.688988493104D+00  0         %
+ -1.293479163481D+00  0         %
+ -1.777512845404D+00  0         %
+  1.055740000000D+00  1           % uAinf
+
+ -1 -1    3  3                    % nTA nTB pNA qNA
+
+'23' 0 0 9 99 0
+-2 0.0d0 0 10
