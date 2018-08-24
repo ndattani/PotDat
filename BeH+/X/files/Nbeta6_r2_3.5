@@ -1,0 +1,78 @@
+4 1 1 3 2 5 0			% AN1 AN2 CHARGE NISTP NSTATES LPRINT PRINP
+2 0                           % CHARGE1 CHARGE2
+'channel.4'				% DATAFILE
+'Nbeta6_r2_3'                      %  WRITFILE
+9 1	
+9 2
+9 3				% MN1 MN2
+100 0 0 0 12 0 			% UCUTOFF NOWIDTHS IROUND ROBUST CYCMAX uBv
+
+ 'A1S'  0  0   12   99  0       % (1)SLABL IOMEG VMIN VMAX JTRUNC EFSEL
+  2  31928.7440  1  0 20        % PSEL VLIM MAXMIN BOBCN OSEL
+   0.10  14.00  0.0010          % RMIN RMAX RH
+ 
+  4   1.10 -2  1                % NCMM RHOab IDF IDSTT
+  4   3.87847236D+04  1         % MMLR(1), CmVAL(1), IFXCm(1)
+  6   2.21963800D+05  1         % MMLR(2), CmVAL(2), IFXCm(2)
+  7   6.81240775D+04  1         % MMLR(3), CmVAL(3), IFXCm(3)
+  8   1.86990147D+06  1         % MMLR(4), CmVAL(4), IFXCm(4)
+
+  1.837274166220D+04  0         % De  IFXDe
+  1.605757719969D+00  0         % Re  IFXRe
+
+  6  6   5  3   2.30D+00        % NSR Nbeta nPB nQB RREF
+ -3.971868213635D-01  0         % BETA 0  IFXBETA 0
+ -2.578245420785D+00  0         % BETA 1  IFXBETA 1
+ -3.716077015645D+00  0         % BETA 2  IFXBETA 2
+ -3.255142803185D+00  0         % BETA 3  IFXBETA 3
+ -1.988050483006D+00  0         % BETA 4  IFXBETA 4
+ -6.806415379561D-01  0         % BETA 5  IFXBETA 5
+ -0.806415379561D-01  0         % BETA 5  IFXBETA 5
+
+ -1  1   9  3    0              % NUA NUB pAD qAD LRad
+ -7.577589202521D+00  0         % UB 0  IFXUB 0
+  7.903201065217D+01  0         % UB 1  IFXUB 1
+  0.000000000000D+00  1         % uBinf  IFXUBinf
+
+ -1  3   9  3                   % NTA NTB pNA qNA
+  0.000000000000D+00  1         % TB 0  IFXTB 0
+  0.000000000000D-00  1         % TB 1  IFXTB 1
+ -2.723671622336D-02  0         % TB 2  IFXTB 2
+ -4.007150538793D-02  0         % TB 3  IFXTB 3
+  0.000000000000D+00  1         % tBinf  IFXTBinf
+ 
+ 'X1S'  0  0   16   99  0       % (2)SLABL IOMEG VMIN VMAX JTRUNC EFSEL
+  2      0.0000  1  0 10        % PSEL VLIM MAXMIN BOBCN OSEL
+   0.20   9.00  0.0010          % RMIN RMAX RH
+ 
+  4   1.10 -2  1                % NCMM RHOab IDF IDSTT
+  4   3.87847236D+04  1         % MMLR(1), CmVAL(1), IFXCm(1)
+  6   1.26997156D+05  1         % MMLR(2), CmVAL(2), IFXCm(2)
+  7   6.81240775D+04  1         % MMLR(3), CmVAL(3), IFXCm(3)
+  8   6.28120665D+05  1         % MMLR(4), CmVAL(4), IFXCm(4)
+
+  2.586086279167D+04  0         % De  IFXDe
+  1.310349097222D+00  0         % Re  IFXRe
+
+  0  6   5  3   2.00D+00        % NSR Nbeta nPB nQB RREF
+ -1.220572156239D-01  0         % BETA 0  IFXBETA 0
+ -2.334485146487D+00  0         % BETA 1  IFXBETA 1
+ -3.481387505199D+00  0         % BETA 2  IFXBETA 2
+ -3.793895590726D+00  0         % BETA 3  IFXBETA 3
+ -3.471954156757D+00  0         % BETA 4  IFXBETA 4
+ -2.328416247365D+00  0         % BETA 5  IFXBETA 5
+ -8.493185135915D-01  0         % BETA 6  IFXBETA 6
+
+ -1  4  15  1    0              % NUA NUB pAD qAD LRad
+ -5.753371476897D+00  0         % UB 0  IFXUB 0
+  7.557816347128D+01  0         % UB 1  IFXUB 1
+  6.774132469226D+02  0         % UB 2  IFXUB 2
+  1.421793413013D+04  0         % UB 3  IFXUB 3
+  1.352137444840D+05  0         % UB 4  IFXUB 4
+  0.000000000000D+00  1         % uBinf  IFXUBinf
+
+ -1  2   3  6                   % NTA NTB pNA qNA
+  0.000000000000D+00  1         % TB 0  IFXTB 0
+  2.239580439493D-03  0         % TB 1  IFXTB 1
+ -2.251378856178D-03  0         % TB 2  IFXTB 2
+ -2.771422644893D-03  0         % tBinf  IFXTBinf

@@ -1,0 +1,70 @@
+ 
+ 'A1S'  0  0   12   99  0       % (1)SLABL IOMEG VMIN VMAX JTRUNC EFSEL
+  2  31928.7440  1  0 20        % PSEL VLIM MAXMIN BOBCN OSEL
+   0.10  14.00  0.0010          % RMIN RMAX RH
+ 
+  4   1.10 -2  1                % NCMM RHOab IDF IDSTT
+  4   3.87847236D+04  1         % MMLR(1), CmVAL(1), IFXCm(1)
+  6   2.21963800D+05  1         % MMLR(2), CmVAL(2), IFXCm(2)
+  7   6.81240775D+04  1         % MMLR(3), CmVAL(3), IFXCm(3)
+  8   1.86990147D+06  1         % MMLR(4), CmVAL(4), IFXCm(4)
+
+  1.835736106857D+04  0         % De  IFXDe
+  1.605591240454D+00  0         % Re  IFXRe
+
+  6  6   5  3   2.30D+00        % NSR Nbeta nPB nQB RREF
+ -3.919967497630D-01  0         % BETA 0  IFXBETA 0
+ -2.452260518009D+00  0         % BETA 1  IFXBETA 1
+ -3.384896801540D+00  0         % BETA 2  IFXBETA 2
+ -3.195859007199D+00  0         % BETA 3  IFXBETA 3
+ -2.432511632300D+00  0         % BETA 4  IFXBETA 4
+ -1.286581710963D+00  0         % BETA 5  IFXBETA 5
+ -4.314533059852D-01  0         % BETA 6  IFXBETA 6
+
+ -1  1   9  3    0              % NUA NUB pAD qAD LRad
+ -1.605620509172D+01  0         % UB 0  IFXUB 0
+  3.880627748651D+01  0         % UB 1  IFXUB 1
+  0.000000000000D+00  1         % uBinf  IFXUBinf
+
+ -1  3   9  3                   % NTA NTB pNA qNA
+  0.000000000000D+00  1         % TB 0  IFXTB 0
+  0.000000000000D+00  1         % TB 1  IFXTB 1
+ -2.972133965384D-02  0         % TB 2  IFXTB 2
+ -7.547647988249D-02  0         % TB 3  IFXTB 3
+  0.000000000000D+00  1         % tBinf  IFXTBinf
+ 
+ 'X1S'  0  0   16   99  0       % (2)SLABL IOMEG VMIN VMAX JTRUNC EFSEL
+  2      0.0000  1  0 10        % PSEL VLIM MAXMIN BOBCN OSEL
+   0.20   9.00  0.0010          % RMIN RMAX RH
+ 
+  4   1.10 -2  1                % NCMM RHOab IDF IDSTT
+  4   3.87847236D+04  1         % MMLR(1), CmVAL(1), IFXCm(1)
+  6   1.26997156D+05  1         % MMLR(2), CmVAL(2), IFXCm(2)
+  7   6.81240775D+04  1         % MMLR(3), CmVAL(3), IFXCm(3)
+  8   6.28120665D+05  1         % MMLR(4), CmVAL(4), IFXCm(4)
+
+  2.584542505933D+04  0         % De  IFXDe
+  1.310332195065D+00  0         % Re  IFXRe
+
+  0  6   5  3   2.00D+00        % NSR Nbeta nPB nQB RREF
+ -1.221257920242D-01  0         % BETA 0  IFXBETA 0
+ -2.332464046626D+00  0         % BETA 1  IFXBETA 1
+ -3.473907123670D+00  0         % BETA 2  IFXBETA 2
+ -3.772743786143D+00  0         % BETA 3  IFXBETA 3
+ -3.423456884348D+00  0         % BETA 4  IFXBETA 4
+ -2.272041483421D+00  0         % BETA 5  IFXBETA 5
+ -8.237298847919D-01  0         % BETA 6  IFXBETA 6
+
+ -1  4  15  1    0              % NUA NUB pAD qAD LRad
+ -1.428183078342D+01  0         % UB 0  IFXUB 0
+ -6.755546527848D+01  0         % UB 1  IFXUB 1
+ -1.519014187181D+03  0         % UB 2  IFXUB 2
+ -7.936024623802D+02  0         % UB 3  IFXUB 3
+  5.242490393542D+04  0         % UB 4  IFXUB 4
+  0.000000000000D+00  1         % uBinf  IFXUBinf
+
+ -1  2   3  6                   % NTA NTB pNA qNA
+  0.000000000000D+00  1         % TB 0  IFXTB 0
+  1.065658541010D-03  0         % TB 1  IFXTB 1
+ -2.903611019976D-04  0         % TB 2  IFXTB 2
+ -1.320761847901D-03  0         % tBinf  IFXTBinf
