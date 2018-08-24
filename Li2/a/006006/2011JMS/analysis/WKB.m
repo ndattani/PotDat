@@ -1,7 +1,7 @@
 hold('on')
 potentialFile=load('../potential.txt');
 r=potentialFile(:,1);
-V=-14903.296792+potentialFile(:,2);
+V=14903.296792+potentialFile(:,2);
 
 fig1=subplot(2,1,1);
 plot(r,V,'LineWidth',6,'Color','b');
